@@ -19,9 +19,8 @@ Further, this can be used to configure OpenSUSE Leap (15.6) on multiple systems 
 
 To run the script without the extras, you can simply copy paste the below code to get it running.
 
-TODO: edit
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/DAK404/OpenSUSE-Setup-Scripts/main/OpenSUSE_Installation.sh)"
+curl -fsSL https://raw.githubusercontent.com/n-shamsi/OpenSUSE-Setup-Scripts/refs/heads/main/OpenSUSE_Installation.sh | bash -s args
 ```
 
 Please see [Arguments](README.MD#arguments) for more options.
@@ -44,6 +43,10 @@ The `OpenSUSE-setup.sh` script may require a few arguments as per your use-case 
 If installing NVIDIA drivers, then include the `driver-version`; has to be the last bash arg.
 
 If you have secure boot enabled, follow [these steps](https://en.opensuse.org/SDB:NVIDIA_drivers#Secureboot) to sign the kernel.
+
+If driver installation is successful, running `nvidia-smi` results in the following output:
+
+![alt text](assets/nvidia-smi.png)
 
 ## DISCLAIMER!
 
