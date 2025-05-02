@@ -317,7 +317,6 @@ then
     sw_remove_VLC_Main_pkgs
     sw_install_VLC_pkgs
     sw_install_sci_pkgs
-    sw_install_zsh_pkgs
 
     if [[ "$@" =~ "miniconda" ]]; then
         miniconda_install
