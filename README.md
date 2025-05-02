@@ -23,8 +23,6 @@ To run the script without the extras, you can simply copy paste the below code t
 curl -fsSL https://raw.githubusercontent.com/n-shamsi/OpenSUSE-Setup-Scripts/refs/heads/main/OpenSUSE_Installation.sh | bash -s args
 ```
 
-Please see [Arguments](README.MD#arguments) for more options.
-
 ## Arguments
 
 The `OpenSUSE-setup.sh` script may require a few arguments as per your use-case or needs. The following arguments and the description of each is as follows:
