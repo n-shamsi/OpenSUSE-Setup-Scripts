@@ -25,7 +25,7 @@ curl -fsSL https://raw.githubusercontent.com/n-shamsi/OpenSUSE-Setup-Scripts/ref
 
 ## Arguments
 
-The `OpenSUSE-setup.sh` script may require a few arguments as per your use-case or needs. The following arguments and the description of each is as follows:
+The `OpenSUSE_Installation.sh` script may require a few arguments as per your use-case or needs. The following arguments and the description of each is as follows:
 
 | Argument          | Description                                                        |
 |-------------------|--------------------------------------------------------------------|
